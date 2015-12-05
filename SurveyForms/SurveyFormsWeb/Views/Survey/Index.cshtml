@@ -1,0 +1,24 @@
+﻿@model SurveyFormsWeb.ViewModels.SurveyListViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>List of Surveys</title>
+</head>
+<body>
+    <div>
+		  @{  for (int i = 0; i < Model.Surveys.Count; i++)
+				{
+					 <div>@Model.Surveys[i]</div>
+				}
+		  }
+
+		  @Html.ActionLink("Add new survey", "Create")
+    </div>
+</body>
+</html>
