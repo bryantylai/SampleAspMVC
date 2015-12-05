@@ -2,9 +2,9 @@
 Sample ASP.NET Web MVC for MSPBootcamp2016
 
 # Required Tools
-1) Download SQL Server Compact from https://visualstudiogallery.msdn.microsoft.com/0e313dfd-be80-4afb-b5e9-6e74d369f7a1
+[1] Download SQL Server Compact from https://visualstudiogallery.msdn.microsoft.com/0e313dfd-be80-4afb-b5e9-6e74d369f7a1
 
-2) Download EntityFramework.SqlServerCompact from Nuget Package (Right click on reference then click on Manage Nuget Packages)
+[2] Download EntityFramework.SqlServerCompact from Nuget Package (Right click on reference then click on Manage Nuget Packages)
 
 # Deploy to Azure
 1) Create a WebApp in Azure
